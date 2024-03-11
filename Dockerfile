@@ -6,7 +6,7 @@ RUN apk add --update\
               curl \
               vim
 
-COPY imple.py /usr/local/bin
+COPY simple.py /usr/local/bin
 RUN chmod +x /usr/local/bin/simple.py
 
 ENTRYPOINT ["/usr/local/bin/simple.py"]
